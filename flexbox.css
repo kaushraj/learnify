@@ -1,0 +1,103 @@
+h1{
+    text-align: center;
+}
+
+#section1{
+    background-color: rgba(10, 1, 15, 0.695);
+    width: 90%;
+    height: 500px;
+    margin: auto;
+   border: 5px solid black;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+#section1 div{
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+}
+.divself{
+    align-self: center;
+}
+
+#section2{
+    background-color: rgba(2, 21, 24, 0.329);
+    width: 90%;
+    height: 500px;
+    margin: auto;
+   border: 5px solid black;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex-wrap: wrap-reverse;
+   
+}
+#section2 div{
+    width: 200px;
+    height: 200px;
+   
+   
+}
+
+#section3{
+    background-color: black;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+   border: 5px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+#section3 div{
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+    text-align: center;
+    font-size: 5em;
+}
+
+#section4{
+    background-color: black;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+   border: 5px solid black;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   
+  
+}
+#section4 div{
+    width: 200px;
+    height: 200px;
+    flex-basis: 200px;
+    flex-grow: 1;
+    
+}
+
+#section5{
+    background-color: black;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+   border: 5px solid black;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   
+  
+}
+#section5 div{
+    width: 200px;
+    height: 200px;
+    
+    
+}
+#divshrink{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
